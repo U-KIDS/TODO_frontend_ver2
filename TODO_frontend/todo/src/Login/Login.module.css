@@ -1,0 +1,18 @@
+.Div{
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+}
+
+.itemContainer{
+    display: block;
+    border: 2px solid #BDBDBD;
+    width: 450px;
+    height: 600px;
+    text-align: left; 
+    background-color: #fff;   
+    border-radius: 30px;
+}
