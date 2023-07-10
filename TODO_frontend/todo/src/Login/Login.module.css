@@ -1,12 +1,3 @@
-.Div{
-    background-color: #EEEEEE;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-
-}
-
 .itemContainer{
     display: block;
     border: 2px solid #BDBDBD;
