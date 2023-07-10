@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
     background-color: #e9ecef;
     display: flex;
     justify-content: center;
@@ -10,16 +9,3 @@ body {
 code {
   
 }
-=======
-  background-color: #e9ecef;
-  display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
-}
-
-code {
-
-}
->>>>>>> 61c8e04e158b19f87ec849ebeb9348301d57d492
