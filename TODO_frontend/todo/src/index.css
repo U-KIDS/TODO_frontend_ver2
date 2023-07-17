@@ -1,12 +1,11 @@
 body {
-  background-color: #e9ecef;
-  display: flex;
+    background-color: #e9ecef;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-
 }
 
 code {
-
+  
 }
