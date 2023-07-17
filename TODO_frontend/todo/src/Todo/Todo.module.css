@@ -1,9 +1,73 @@
 .Container{
-    display: block;
+    display: flex;
+    flex-direction: column;
     border: 2px solid #BDBDBD;
     width: 450px;
     height: 600px;
     text-align: left; 
     background-color: #fff;   
     border-radius: 30px;
+}
+
+.HeadContainer{
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.day{
+    margin: 0;
+    font-size: 30px;
+    color: #343a40;
+}
+
+.taskleft {
+    color: #7dd3ff;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.ListContainer{
+    flex: 1;
+    padding: 20px 32px;
+    padding-bottom: 48px;
+    overflow-y: auto;
+}
+
+.TodoItemBlock{
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.CheckCircle{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    border: 1px solid #ced4da;
+    font-size: 24px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.Text{
+    flex: 1;
+    font-size: 21px;
+    color: #495057;
+}
+
+.doneText {
+    color: #ced4da;
+    text-decoration: line-through;
+}
+
+.done {
+    border: 1px solid #7dd3ff;
+    color: #7dd3ff;
 }
