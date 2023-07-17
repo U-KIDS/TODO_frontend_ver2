@@ -3,7 +3,7 @@ import './App.css';
 import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
 import Todo_template from './Todo/Todo_template';
-import Todo_head from './Todo/Todoo_head';
+import Todo_head from './Todo/Todo_head';
 
 
 const GlobalStyle = createGlobalStyle`
